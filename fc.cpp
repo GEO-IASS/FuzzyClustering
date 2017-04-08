@@ -54,7 +54,7 @@ struct Graph{
      	int set_v = ds.find(v);
      	if (set_u != set_v){
 				if(it->first>=lambda){
-					cout <<"("<<u<<","<<v<<")-"<<it->first<<endl;
+					cout <<"{"<<u<<","<<v<<"} -> "<<it->first<<endl;
      			ds.merge(set_u, set_v);
 				}
      	}
