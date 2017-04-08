@@ -1,14 +1,14 @@
 # Fuzzy Clustering Analysis of Data Mining
 ---
 
-## Initializing project
+#### Initializing project
 
 ```bash
 chmod u+x init.sh
 ./init.sh
 ```
 
-## Running Code
+#### Running Code
 
 ```bash
 ./run.sh
